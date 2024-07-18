@@ -3,8 +3,7 @@
 }
 
 .left-panel {
-  background-color: #282c34;
-  background-image: url('./src/assets/background.png');
+  background-color: #282c34; background-image: url('./src/assets/background.png');
   background-size: cover;  color: white;
   padding: 20px; width: 100%;
   display: flex; flex-direction: column;
@@ -12,25 +11,15 @@
 }
 
 .right-panel {
-  /* background-image: url('./src/assets/background.png');
-  background-size: cover; */
-  background-position: center;
-  width: 10%;
-  height: 100vh; /* Ensure the right panel takes full height */
+  background-position: center;  width: 10%;  height: 100vh; /* Ensure the right panel takes full height */
 }
 
 input {
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  padding: 10px;  margin: 10px;  border-radius: 5px;  border: 1px solid #ccc;
 }
 
 button {
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;  background-color: #61dafb;
-  color: white; cursor: pointer;
+  padding: 10px 20px;  border-radius: 5px;  border: none;  background-color: #61dafb;  color: white; cursor: pointer;
 }
 
 button:hover {
